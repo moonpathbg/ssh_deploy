@@ -20,6 +20,12 @@ inputs:
   target:
     description: 'destination path'
     required: false
+  before:
+    description: 'command to execute before transfer'
+    required: false
+  after:
+    description: 'command to execute after transfer'
+    required: false
 
 runs:
   using: 'docker'
