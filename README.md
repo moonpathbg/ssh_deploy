@@ -18,7 +18,7 @@ Transfer files to remote host over SSH/SCP using key based authentication.
 
 ## SSH authentication and configuration
 
-Password auehtentication is considered unsecure and is not implemented.
+Password authentication is considered unsecure and is not implemented.
 
 SSH key generation is done as follows:
 ```

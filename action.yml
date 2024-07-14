@@ -1,6 +1,6 @@
-name: 'SCP Uploader'
+name: 'SCP Uploader (Fork)'
 description: 'Deploy/upload files via SSH using key based authentication'
-author: 'Moonpath'
+author: 'ErSoul'
 inputs:
   host:
     description: 'remote host'
