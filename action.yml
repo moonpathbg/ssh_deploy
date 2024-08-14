@@ -1,6 +1,6 @@
-name: 'SCP Uploader'
+name: 'SCP Uploader (Fork)'
 description: 'Deploy/upload files via SSH using key based authentication'
-author: 'Moonpath'
+author: 'ErSoul'
 inputs:
   host:
     description: 'remote host'
@@ -19,6 +19,12 @@ inputs:
     required: false
   target:
     description: 'destination path'
+    required: false
+  before:
+    description: 'command to execute before transfer'
+    required: false
+  after:
+    description: 'command to execute after transfer'
     required: false
 
 runs:

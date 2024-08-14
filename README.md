@@ -6,14 +6,19 @@ Transfer files to remote host over SSH/SCP using key based authentication.
 
 - `host`: Remote host name or ip address
 - `username`: Username for login
-- `port`: Port used for SSH connection
 - `key`: SSH private key
 - `source`: Source files or directories
 - `target`: Remote path location
 
+## Optional arguments
+
+- `port`: Port used for SSH connection (Default: 22)
+- `before`: commands to run before copying files
+- `after`: commands to run after copying files
+
 ## SSH authentication and configuration
 
-Password auehtentication is considered unsecure and is not implemented.
+Password authentication is considered unsecure and is not implemented.
 
 SSH key generation is done as follows:
 ```
